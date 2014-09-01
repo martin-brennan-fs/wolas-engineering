@@ -1,0 +1,24 @@
+# Site settings
+title: Engineering
+email: db@filmskills.com.au
+description: "This is the WOLAS Engineering blog where we write about the tech that runs WOLAS."
+baseurl: ""
+url: "http://engineering.wolas.com.au"
+twitter_username: wolas_ws
+github_username:  wolas-revolution
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Other settings
+timezone: Australia/Brisbane
+
+# Set post defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "post"
+      comments: true
